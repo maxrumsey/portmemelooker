@@ -1,0 +1,18 @@
+.box {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1rem auto;
+    padding: 0.5rem;
+    width: 75vw;
+}
+
+#form-box input,
+button {
+    margin: 0 auto;
+    display: block;
+}
+
+#img {
+    margin: 0 auto;
+    display: block;
+}

@@ -1,0 +1,22 @@
+{
+    "name": "portmemelooker",
+    "version": "1.0.0",
+    "description": "A web-app that allows you to view 'mobile-only' memes on desktop.",
+    "main": "server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maxrumsey/portmemelooker.git"
+    },
+    "author": "Max Rumsey <max@maxrumsey.xyz> (maxrumsey.xyz)",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/maxrumsey/portmemelooker/issues"
+    },
+    "homepage": "https://github.com/maxrumsey/portmemelooker#readme",
+    "dependencies": {
+        "express": "^4.17.1"
+    }
+}
