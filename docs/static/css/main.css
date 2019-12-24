@@ -4,15 +4,28 @@
     margin: 1rem auto;
     padding: 0.5rem;
     width: 75vw;
+    text-align: center;
+    background-color: #a1bcc2;
 }
 
 #form-box input,
 button {
     margin: 0 auto;
     display: block;
+    width: 60vw;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
 }
 
 #img {
     margin: 0 auto;
     display: block;
+}
+
+body {
+    margin: 0;
+    background-color: #d16671;
 }

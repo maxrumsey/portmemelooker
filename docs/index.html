@@ -1,19 +1,46 @@
 <html>
 
 <head>
+    <title>PortMemeLooker</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="static/css/main.css">
     <script src="static/js/change.js"></script>
 </head>
 
 <body>
-    <h1>PortMemeLooker</h1>
+    <div id="info-box" class="box">
+        <h1>PortMemeLooker</h1>
+        <h3>Port Meme Looker. Your solution to mobile-device oriented memes being viewed from a desktop.</h3>
+        <p>
+            Ever see a meme on your favourite meme site, that tells you to view it from your mobile device? Don't bother opening your phone or pulling up Paint, just <u>Copy Image Address</u> and put it into the below form.
+        </p>
+        <h4>How To Use</h4>
+        <ol>
+            <li>
+                Put the URL of the image into the <u>Image URL</u> box.
+            </li>
+            <li>
+                Press the <u>Set Image URL</u> button.
+            </li>
+            <li>
+                Change the <u>X</u> and <u>Y</u> sliders until the text becomes visible!
+            </li>
+        </ol>
+    </div>
     <div id="form-box" class="box">
         <h3>Image URL:</h3>
-        <input type="text" placeholder="Image URL" id="form-url" value="https://i.pinimg.com/474x/11/d6/5d/11d65d26db4d28f7af760bb0c011e47a.jpg"> <button id="form-url-button">Set Image URL</button>
-        <h3>X:</h3>
-        <input type="range" min="100" max="200" value="100" class="slider" id="form-range-x">
-        <h3>Y:</h3>
-        <input type="range" min="1" max="100" value="100" class="slider" id="form-range-y">
+
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+                <span class="input-group-text" id="basic-addon1">Image URL</span>
+            </div>
+            <input type="text" placeholder="Image URL" id="form-url" class="text-input form-control" value="https://i.pinimg.com/474x/11/d6/5d/11d65d26db4d28f7af760bb0c011e47a.jpg">
+        </div>
+        <button class="btn btn-primary" id="form-url-button">Set Image URL</button>
+        <h3>X Scale:</h3>
+        <input type="range" min="100" max="200" value="100" class="slider .custom-range" id="form-range-x">
+        <h3>Y Scale:</h3>
+        <input type="range" min="1" max="100" value="100" class="slider .custom-range" id="form-range-y">
     </div>
     <div id="img-box" class="box">
         <img id="img">
@@ -21,4 +48,4 @@
     <script src='static/js/init.js'></script>
 </body>
 
-</html>
+</html
